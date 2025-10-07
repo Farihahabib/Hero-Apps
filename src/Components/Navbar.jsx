@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router';
 import { FaGithub } from "react-icons/fa";
+import  logo  from '../assets/logo.png'
 const Navbar = () => {
     return (
         <div>
@@ -14,7 +15,7 @@ const Navbar = () => {
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
          <li>
-        <NavLink to="/">Home</NavLink>
+        <NavLink to="/" >Home</NavLink>
       </li>
     
       <li>
@@ -27,28 +28,28 @@ const Navbar = () => {
       </ul>
     </div>
     <NavLink className="btn flex btn-ghost text-xl">
-       <img src="../../assets/logo.png" alt="" />
+       <img className='w-6' src={logo} alt="" />
         <h1>HERO.IO</h1>
         </NavLink>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
       <li>
-        <NavLink to="/">Home</NavLink>
+        <NavLink to="/" className="font-semibold text-[1.11rem]">Home</NavLink>
       </li>
     
       <li>
-        <NavLink to="/Apps">Apps</NavLink>
+        <NavLink to="/Apps" className="font-semibold text-[1.11rem]">Apps</NavLink>
       </li>
     
       <li>
-        <NavLink to="/Installation">Installation</NavLink>
+        <NavLink to="/Installation" className="font-semibold text-[1.11rem]">Installation</NavLink>
       </li>
     
     </ul>
   </div>
   <div className="navbar-end">
-    <NavLink className="btn text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"><FaGithub /> Contribute</NavLink>
+    < NavLink to="" className="btn text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"><FaGithub /> Contribute</NavLink>
   </div>
 </div>
         </div>
