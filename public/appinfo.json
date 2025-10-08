@@ -1,0 +1,662 @@
+[
+  {
+    "image": "/src/assets/demo-app (1).webp",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 101,
+    "description": "Photo and video sharing app with features like Stories and Reels.",
+    "size": 125,
+    "reviews": 350000000,
+    "ratingAvg": 4.5,
+    "downloads": "6.0B",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 15000000
+      },
+      {
+        "name": "2 star",
+        "count": 10000000
+      },
+      {
+        "name": "3 star",
+        "count": 25000000
+      },
+      {
+        "name": "4 star",
+        "count": 80000000
+      },
+      {
+        "name": "5 star",
+        "count": 220000000
+      }
+    ]
+  },
+  {
+    "image": "../src/assets/demo-app (2).webp",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 102,
+    "description": "Secure, simple, reliable messaging and calling, free.",
+    "size": 50,
+    "reviews": 210000000,
+    "ratingAvg": 4.4,
+    "downloads": "10.0B",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 10000000
+      },
+      {
+        "name": "2 star",
+        "count": 5000000
+      },
+      {
+        "name": "3 star",
+        "count": 15000000
+      },
+      {
+        "name": "4 star",
+        "count": 60000000
+      },
+      {
+        "name": "5 star",
+        "count": 120000000
+      }
+    ]
+  },
+  {
+    "image": "../src/assets/demo-app (3).webp",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 103,
+    "description": "Connect with friends and family, share updates, and join groups.",
+    "size": 75,
+    "reviews": 150000000,
+    "ratingAvg": 4.1,
+    "downloads": "9.0B",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 25000000
+      },
+      {
+        "name": "2 star",
+        "count": 15000000
+      },
+      {
+        "name": "3 star",
+        "count": 20000000
+      },
+      {
+        "name": "4 star",
+        "count": 40000000
+      },
+      {
+        "name": "5 star",
+        "count": 50000000
+      }
+    ]
+  },
+  {
+    "image": "../src/assets/demo-app (4).webp",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 104,
+    "description": "Watch, subscribe, and create videos on various topics.",
+    "size": 150,
+    "reviews": 400000000,
+    "ratingAvg": 4.2,
+    "downloads": "10.0B",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 20000000
+      },
+      {
+        "name": "2 star",
+        "count": 15000000
+      },
+      {
+        "name": "3 star",
+        "count": 30000000
+      },
+      {
+        "name": "4 star",
+        "count": 100000000
+      },
+      {
+        "name": "5 star",
+        "count": 235000000
+      }
+    ]
+  },
+  {
+    "image": "../src/assets/demo-app (5).webp",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 105,
+    "description": "Fast and secure cloud-based instant messaging application.",
+    "size": 45,
+    "reviews": 15000000,
+    "ratingAvg": 4.6,
+    "downloads": "1.0B",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 500000
+      },
+      {
+        "name": "2 star",
+        "count": 200000
+      },
+      {
+        "name": "3 star",
+        "count": 800000
+      },
+      {
+        "name": "4 star",
+        "count": 4500000
+      },
+      {
+        "name": "5 star",
+        "count": 9000000
+      }
+    ]
+  },
+  {
+    "image": "../src/assets/demo-app (6).webp",
+    "title": "Snapchat",
+    "companyName": "Snap Inc",
+    "id": 106,
+    "description": "Share moments with friends using photos and short videos (Snaps).",
+    "size": 90,
+    "reviews": 30000000,
+    "ratingAvg": 4.1,
+    "downloads": "4.0B",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 2000000
+      },
+      {
+        "name": "2 star",
+        "count": 1500000
+      },
+      {
+        "name": "3 star",
+        "count": 3000000
+      },
+      {
+        "name": "4 star",
+        "count": 8000000
+      },
+      {
+        "name": "5 star",
+        "count": 15500000
+      }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/en/2/2c/Temu_logo.svg",
+    "title": "Temu",
+    "companyName": "WhaleCo Inc",
+    "id": 107,
+    "description": "Online shopping app offering wide variety of products.",
+    "size": 85,
+    "reviews": 12000000,
+    "ratingAvg": 4.6,
+    "downloads": "0.5B",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 500000
+      },
+      {
+        "name": "2 star",
+        "count": 400000
+      },
+      {
+        "name": "3 star",
+        "count": 1100000
+      },
+      {
+        "name": "4 star",
+        "count": 4000000
+      },
+      {
+        "name": "5 star",
+        "count": 6000000
+      }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ea/CapCut_logo.svg",
+    "title": "CapCut",
+    "companyName": "ByteDance Ltd.",
+    "id": 108,
+    "description": "Official free video editor with music and effects.",
+    "size": 110,
+    "reviews": 18000000,
+    "ratingAvg": 4.5,
+    "downloads": "0.8B",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 600000
+      },
+      {
+        "name": "2 star",
+        "count": 400000
+      },
+      {
+        "name": "3 star",
+        "count": 1500000
+      },
+      {
+        "name": "4 star",
+        "count": 4500000
+      },
+      {
+        "name": "5 star",
+        "count": 11000000
+      }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Threads_%28logo%29.svg",
+    "title": "Threads, an Instagram app",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 109,
+    "description": "Text-based conversation app from the Instagram team.",
+    "size": 60,
+    "reviews": 3500000,
+    "ratingAvg": 3.8,
+    "downloads": "0.3B",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 500000
+      },
+      {
+        "name": "2 star",
+        "count": 400000
+      },
+      {
+        "name": "3 star",
+        "count": 700000
+      },
+      {
+        "name": "4 star",
+        "count": 900000
+      },
+      {
+        "name": "5 star",
+        "count": 1000000
+      }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
+    "title": "Spotify: Music and Podcasts",
+    "companyName": "Spotify AB",
+    "id": 110,
+    "description": "Stream millions of songs and podcasts for free.",
+    "size": 100,
+    "reviews": 45000000,
+    "ratingAvg": 4.4,
+    "downloads": "1.0B",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1500000
+      },
+      {
+        "name": "2 star",
+        "count": 1000000
+      },
+      {
+        "name": "3 star",
+        "count": 4500000
+      },
+      {
+        "name": "4 star",
+        "count": 12000000
+      },
+      {
+        "name": "5 star",
+        "count": 26000000
+      }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 111,
+    "description": "Watch TV shows and movies online or stream directly to your smart TV, game console, PC, Mac, mobile, tablet and more.",
+    "size": 80,
+    "reviews": 15000000,
+    "ratingAvg": 4.5,
+    "downloads": "2.0B",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 500000
+      },
+      {
+        "name": "2 star",
+        "count": 300000
+      },
+      {
+        "name": "3 star",
+        "count": 1200000
+      },
+      {
+        "name": "4 star",
+        "count": 4000000
+      },
+      {
+        "name": "5 star",
+        "count": 9000000
+      }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon Mobile LLC",
+    "id": 112,
+    "description": "Shop millions of products and manage your Amazon orders.",
+    "size": 65,
+    "reviews": 25000000,
+    "ratingAvg": 4.2,
+    "downloads": "1.0B",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1000000
+      },
+      {
+        "name": "2 star",
+        "count": 800000
+      },
+      {
+        "name": "3 star",
+        "count": 2200000
+      },
+      {
+        "name": "4 star",
+        "count": 7000000
+      },
+      {
+        "name": "5 star",
+        "count": 14000000
+      }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Facebook_Messenger_logo_2020.svg",
+    "title": "Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 113,
+    "description": "Free calls and texts, chat and video call with friends and family.",
+    "size": 60,
+    "reviews": 100000000,
+    "ratingAvg": 4.0,
+    "downloads": "5.0B",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 15000000
+      },
+      {
+        "name": "2 star",
+        "count": 10000000
+      },
+      {
+        "name": "3 star",
+        "count": 15000000
+      },
+      {
+        "name": "4 star",
+        "count": 25000000
+      },
+      {
+        "name": "5 star",
+        "count": 35000000
+      }
+    ]
+  },
+  {
+    "image": "../src/assets/pinterest.png",
+    "title": "Pinterest",
+    "companyName": "Pinterest, Inc.",
+    "id": 114,
+    "description": "Find and save creative ideas, recipes, home décor, and more.",
+    "size": 70,
+    "reviews": 10000000,
+    "ratingAvg": 4.6,
+    "downloads": "1.0B",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 300000
+      },
+      {
+        "name": "2 star",
+        "count": 200000
+      },
+      {
+        "name": "3 star",
+        "count": 800000
+      },
+      {
+        "name": "4 star",
+        "count": 3700000
+      },
+      {
+        "name": "5 star",
+        "count": 5000000
+      }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
+    "title": "ChatGPT",
+    "companyName": "OpenAI",
+    "id": 115,
+    "description": "AI chatbot that generates human-like text responses.",
+    "size": 55,
+    "reviews": 5000000,
+    "ratingAvg": 4.3,
+    "downloads": "0.3B",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 200000
+      },
+      {
+        "name": "2 star",
+        "count": 150000
+      },
+      {
+        "name": "3 star",
+        "count": 650000
+      },
+      {
+        "name": "4 star",
+        "count": 1500000
+      },
+      {
+        "name": "5 star",
+        "count": 2500000
+      }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Zoom-logo-700x394.png",
+    "title": "Zoom - One Platform to Connect",
+    "companyName": "Zoom Video Communications, Inc.",
+    "id": 116,
+    "description": "Cloud-based platform for video and audio conferencing.",
+    "size": 95,
+    "reviews": 11000000,
+    "ratingAvg": 4.0,
+    "downloads": "0.5B",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1000000
+      },
+      {
+        "name": "2 star",
+        "count": 800000
+      },
+      {
+        "name": "3 star",
+        "count": 1500000
+      },
+      {
+        "name": "4 star",
+        "count": 3000000
+      },
+      {
+        "name": "5 star",
+        "count": 4700000
+      }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/Duolingo_logo.svg",
+    "title": "Duolingo: Learn Languages",
+    "companyName": "Duolingo",
+    "id": 117,
+    "description": "Free and fun language learning app.",
+    "size": 70,
+    "reviews": 20000000,
+    "ratingAvg": 4.7,
+    "downloads": "0.8B",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 400000
+      },
+      {
+        "name": "2 star",
+        "count": 300000
+      },
+      {
+        "name": "3 star",
+        "count": 1000000
+      },
+      {
+        "name": "4 star",
+        "count": 5300000
+      },
+      {
+        "name": "5 star",
+        "count": 13000000
+      }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Google_Maps_icon.svg",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 118,
+    "description": "Navigation, traffic, and public transit information.",
+    "size": 130,
+    "reviews": 22000000,
+    "ratingAvg": 4.3,
+    "downloads": "10.0B",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1000000
+      },
+      {
+        "name": "2 star",
+        "count": 800000
+      },
+      {
+        "name": "3 star",
+        "count": 2200000
+      },
+      {
+        "name": "4 star",
+        "count": 6000000
+      },
+      {
+        "name": "5 star",
+        "count": 12000000
+      }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Shopee_logo.svg",
+    "title": "Shopee",
+    "companyName": "Shopee Mobile",
+    "id": 119,
+    "description": "Leading e-commerce platform in Southeast Asia and beyond.",
+    "size": 80,
+    "reviews": 15000000,
+    "ratingAvg": 4.5,
+    "downloads": "0.6B",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 500000
+      },
+      {
+        "name": "2 star",
+        "count": 400000
+      },
+      {
+        "name": "3 star",
+        "count": 1000000
+      },
+      {
+        "name": "4 star",
+        "count": 4100000
+      },
+      {
+        "name": "5 star",
+        "count": 9000000
+      }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023.svg",
+    "title": "X (formerly Twitter)",
+    "companyName": "X Corp.",
+    "id": 120,
+    "description": "Real-time information network for news and public conversations.",
+    "size": 115,
+    "reviews": 12000000,
+    "ratingAvg": 3.9,
+    "downloads": "2.0B",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1500000
+      },
+      {
+        "name": "2 star",
+        "count": 1000000
+      },
+      {
+        "name": "3 star",
+        "count": 2000000
+      },
+      {
+        "name": "4 star",
+        "count": 3500000
+      },
+      {
+        "name": "5 star",
+        "count": 4000000
+      }
+    ]
+  }
+]

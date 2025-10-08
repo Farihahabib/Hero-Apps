@@ -17,21 +17,21 @@ const Banner = () => {
   <img className='flex justify-center items-center mx-auto' src={hero} alt="" />
   <div className=" sm:footer-horizontal w-100% relative top-[-14px] text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2] p-10 ">
     <h1 className='font-bold text-3xl'>Trusted by Millions, Built for You</h1>
-    <div className="grid grid-flow-col gap-8 mt-8">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
         <nav className='flex flex-col gap-4 font-bold'>
-    <a className="">Total Downloads</a>
+    <a className="text-lg">Total Downloads</a>
     <a className=" text-6xl">29.6M</a>
-    <a className="">21% more than last month</a>
+    <a className="text-lg">21% more than last month</a>
   </nav>
         <nav className='flex flex-col  gap-4 font-bold'>
-    <a className="">Total Reviews</a>
+    <a className="text-lg">Total Reviews</a>
     <a className=" text-6xl">906k</a>
-    <a className="">46% more than last month</a>
+    <a className="text-lg">46% more than last month</a>
   </nav>
         <nav className='flex flex-col  gap-4 font-bold'>
-    <a className="">Active Apps</a>
+    <a className="text-lg">Active Apps</a>
     <a className="  text-6xl">132+</a>
-    <a className="">31 more will Launch</a>
+    <a className="text-lg">31 more will Launch</a>
   </nav>
     </div>
   

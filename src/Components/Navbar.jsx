@@ -3,6 +3,7 @@ import { NavLink } from 'react-router';
 import { FaGithub } from "react-icons/fa";
 import  logo  from '../assets/logo.png'
 const Navbar = () => {
+  const mygithubid = "https://github.com/Farihahabib";
     return (
         <div>
          <div className="navbar bg-base-100 shadow-sm">
@@ -49,7 +50,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    < NavLink to="" className="btn text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"><FaGithub /> Contribute</NavLink>
+    <a href={mygithubid} target='_blank' rel='noopener noreferrer' className="btn text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"><FaGithub /> Contribute</a>
   </div>
 </div>
         </div>

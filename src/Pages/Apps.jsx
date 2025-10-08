@@ -1,10 +1,11 @@
 import React from 'react';
+import useApps from '../hooks/useApps';
 
 const Apps = () => {
-          
+      const { apps } = useApps()   
     return (
         <div>
-            <h1>Apps</h1>
+           Products: {apps.length}
         </div>
     );
 };
