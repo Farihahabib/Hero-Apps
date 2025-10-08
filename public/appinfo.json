@@ -1,6 +1,6 @@
 [
   {
-    "image": "/src/assets/demo-app (1).webp",
+    "image": "/src/assets/insta.jpg",
     "title": "Instagram",
     "companyName": "Meta Platforms, Inc.",
     "id": 101,
@@ -33,8 +33,8 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (2).webp",
-    "title": "WhatsApp Messenger",
+    "image": "../src/assets/whstsapp.jpg",
+    "title": "WhatsApp ",
     "companyName": "Meta Platforms, Inc.",
     "id": 102,
     "description": "Secure, simple, reliable messaging and calling, free.",
@@ -66,7 +66,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (3).webp",
+    "image": "../src/assets/facebook.png",
     "title": "Facebook",
     "companyName": "Meta Platforms, Inc.",
     "id": 103,
@@ -99,7 +99,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (4).webp",
+    "image": "../src/assets/youtube.jpg",
     "title": "YouTube",
     "companyName": "Google LLC",
     "id": 104,
@@ -132,7 +132,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (5).webp",
+    "image": "../src/assets/telegram.png",
     "title": "Telegram",
     "companyName": "Telegram FZ-LLC",
     "id": 105,
@@ -165,7 +165,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (6).webp",
+    "image": "../src/assets/snap.png",
     "title": "Snapchat",
     "companyName": "Snap Inc",
     "id": 106,
@@ -198,7 +198,7 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/en/2/2c/Temu_logo.svg",
+    "image": "../src/assets/temu.jpg",
     "title": "Temu",
     "companyName": "WhaleCo Inc",
     "id": 107,
@@ -231,7 +231,7 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ea/CapCut_logo.svg",
+    "image": "../src/assets/video.jpg",
     "title": "CapCut",
     "companyName": "ByteDance Ltd.",
     "id": 108,
@@ -264,7 +264,7 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Threads_%28logo%29.svg",
+    "image": "../src/assets/insta.jpg",
     "title": "Threads, an Instagram app",
     "companyName": "Meta Platforms, Inc.",
     "id": 109,
@@ -495,7 +495,7 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Zoom-logo-700x394.png",
+    "image": "../src/assets/demo-app (1).webp",
     "title": "Zoom - One Platform to Connect",
     "companyName": "Zoom Video Communications, Inc.",
     "id": 116,
@@ -528,7 +528,7 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/Duolingo_logo.svg",
+    "image": "../src/assets/demo-app (2).webp",
     "title": "Duolingo: Learn Languages",
     "companyName": "Duolingo",
     "id": 117,
@@ -561,7 +561,7 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Google_Maps_icon.svg",
+    "image": "../src/assets/demo-app (3).webp",
     "title": "Google Maps",
     "companyName": "Google LLC",
     "id": 118,
@@ -594,7 +594,7 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Shopee_logo.svg",
+    "image": "../src/assets/demo-app (4).webp",
     "title": "Shopee",
     "companyName": "Shopee Mobile",
     "id": 119,
@@ -627,7 +627,7 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023.svg",
+    "image": "../src/assets/demo-app (6).webp",
     "title": "X (formerly Twitter)",
     "companyName": "X Corp.",
     "id": 120,
