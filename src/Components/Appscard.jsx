@@ -2,11 +2,13 @@ import React from 'react';
 import App from '../App';
 import { FaDownload } from "react-icons/fa6";
 import { FaStar } from "react-icons/fa";
+import { Link } from 'react-router';
 const Appscard = ({app}) => {
   
- const { title , ratingAvg , downloads ,image} = app;
+ const { title , ratingAvg , downloads ,image, id } = app;
     return (
-            <div className=' shadow-2xl p-5 rounded-xl hover:scale-103 transition ease-in-out'>
+       <>
+            <Link to={`/app/${id}`} className=' shadow-2xl p-5 rounded-xl hover:scale-103 transition ease-in-out'>
         <figure className='h-30 rounded-t-xl overflow-hidden'>
              <img className='w-full  object-cover' src={image} alt="" />
         </figure>
@@ -19,9 +21,9 @@ const Appscard = ({app}) => {
            
             <button className='rounded-xl  bg-orange-100 flex justify-center gap-1 items-center text-orange-500  px-4'><FaStar />{ratingAvg}</button>
         </div>
-
-      </div>
-       
+</Link>
+     
+    </>
       
     );
 };

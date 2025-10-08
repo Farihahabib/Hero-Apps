@@ -3,7 +3,7 @@ import App from "../App";
 import Home from "../Pages/Home";
 import Apps from "../Pages/Apps";
 import MainLayput from "../Layouts/MainLayput";
-
+import AppDetails from "../Pages/AppDetails"
 import Error from "../Pages/Error";
 import Installation from "../Pages/Installation";
 import logo from '../assets/logo.png'
@@ -28,6 +28,11 @@ const router = createBrowserRouter([
     path: "/Installation",
     element:   <Installation />,
   },
+  {
+    path: '/app/:id',
+    element: <AppDetails />
+
+  }
     ]
 
   },

@@ -1,6 +1,6 @@
 import React from 'react';
 import Banner from '../Components/Banner';
-import { NavLink, useLoaderData } from 'react-router';
+import { NavLink } from 'react-router';
 import Appscard from '../Components/appscard';
 import useApps from '../hooks/useApps';
 
@@ -20,7 +20,7 @@ const featuredapps = apps.slice(0,8)
     }
  </div>
 
-    <NavLink to='/Apps' className='text-white  bg-blue-600 inline-block  text-center btn   justify-center my-9 mx-auto   rounded-xl text-sm'>Show All</NavLink>
+    <NavLink to='/Apps' className='text-white  inline-block  text-center btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2]  justify-center my-9 mx-auto   rounded-xl text-sm'>Show All</NavLink>
  
  
 </>
