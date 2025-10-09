@@ -2,6 +2,9 @@ import React from 'react';
 import { NavLink } from 'react-router';
 import { FaGithub } from "react-icons/fa";
 import  logo  from '../assets/logo.png'
+import { IoHomeOutline } from "react-icons/io5";
+import { FaAppStore } from "react-icons/fa";
+import { MdOutlineInstallDesktop } from "react-icons/md";
 const Navbar = () => {
   const mygithubid = "https://github.com/Farihahabib";
     return (
@@ -36,15 +39,15 @@ const Navbar = () => {
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
       <li>
-        <NavLink to="/" className="font-semibold text-[1.11rem]">Home</NavLink>
+        <NavLink to="/" className="font-semibold text-[1.11rem]"> <IoHomeOutline />Home</NavLink>
       </li>
     
       <li>
-        <NavLink to="/Apps" className="font-semibold text-[1.11rem]">Apps</NavLink>
+        <NavLink to="/Apps" className="font-semibold text-[1.11rem]"><FaAppStore />Apps</NavLink>
       </li>
     
       <li>
-        <NavLink to="/Installation" className="font-semibold text-[1.11rem]">Installation</NavLink>
+        <NavLink to="/Installation" className="font-semibold text-[1.11rem]"><MdOutlineInstallDesktop />Installation</NavLink>
       </li>
     
     </ul>

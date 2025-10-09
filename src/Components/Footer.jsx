@@ -1,22 +1,38 @@
 import React from 'react';
 import  logo  from '../assets/logo.png'
-import { NavLink } from 'react-router';
+import { Link, NavLink } from 'react-router';
 const Footer = () => {
     return (
         <>
-        <div>
-            <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content items-center p-4">
+        <div className='  '>
+            <footer className="footer  bg-gray-800  sm:footer-horizontal text-neutral-content items-center p-4 py-12">
  
    <aside className="grid-flow-col items-center">
-  <div className="btn flex btn-ghost text-xl">
+  <Link to="/" className="btn flex btn-ghost text-xl">
        <img className='w-6' src={logo} alt="" />
         <h1>HERO.IO</h1>
-        </div>
+        </Link>
    
   </aside>
+   <div className="footer-center lg:flex lg:justify-around">
+      <ul className="menu menu-horizontal px-1">
+        <li className='hover:border-b'>
+          <NavLink to="/" className="font-semibold text-[1.11rem]">Home</NavLink>
+        </li>
+      
+        <li className='hover:border-b'>
+          <NavLink to="/Apps" className="font-semibold text-[1.11rem]">Apps</NavLink>
+        </li>
+      
+        <li className='hover:border-b'>
+          <NavLink to="/Installation" className="font-semibold text-[1.11rem]">Installation</NavLink>
+        </li>
+      
+      </ul>
+    </div>
   <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
     <div className='flex gap-4'>
-    <h3>Social Links</h3>
+   
     <a>
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -53,9 +69,9 @@ const Footer = () => {
     </div>
   </nav>
 </footer>
-     <footer className="footer sm:footer-horizontal footer-center text-white bg-black  p-4">
+     <footer className="footer  bg-gray-900 sm:footer-horizontal footer-center text-white p-4">
   <aside>
-    <p>Copyright © {new Date().getFullYear()} - All right reserved </p>
+    <p>Copyright © {new Date().getFullYear()} - All right reserved by HERO.IO </p>
   </aside>
 </footer>
         </div>

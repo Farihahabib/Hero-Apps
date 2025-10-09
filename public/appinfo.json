@@ -1,6 +1,6 @@
 [
   {
-    "image": "/src/assets/insta.jpg",
+    "image": "https://static.vecteezy.com/system/resources/previews/008/385/736/non_2x/instagram-social-media-icon-symbol-element-illustration-free-vector.jpg",
     "title": "Instagram",
     "companyName": "Meta Platforms, Inc.",
     "id": 101,
@@ -33,7 +33,7 @@
     ]
   },
   {
-    "image": "../src/assets/whstsapp.jpg",
+    "image": "https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-mobile-software-icon-png-image_6315991.png",
     "title": "WhatsApp ",
     "companyName": "Meta Platforms, Inc.",
     "id": 102,
@@ -66,7 +66,7 @@
     ]
   },
   {
-    "image": "../src/assets/facebook.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/1200px-Facebook_icon.svg.png",
     "title": "Facebook",
     "companyName": "Meta Platforms, Inc.",
     "id": 103,
@@ -99,7 +99,7 @@
     ]
   },
   {
-    "image": "../src/assets/youtube.jpg",
+    "image": "https://img.freepik.com/free-vector/youtube-player-icon-with-flat-design_23-2147837753.jpg?semt=ais_hybrid&w=740&q=80",
     "title": "YouTube",
     "companyName": "Google LLC",
     "id": 104,
@@ -132,7 +132,7 @@
     ]
   },
   {
-    "image": "../src/assets/telegram.png",
+    "image": "data:image/jpeg;base64,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",
     "title": "Telegram",
     "companyName": "Telegram FZ-LLC",
     "id": 105,
@@ -165,7 +165,7 @@
     ]
   },
   {
-    "image": "../src/assets/snap.png",
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAulBMVEX//AD//////wAAAADw8PDp6ena2trz8QDCwsL19fXLy8vGxsb7+/v19ABxcXLm5uYAAAjt7AAREQCFhAC0sgBsbG0aGQCZlwA1NADBwQDU1NR2dQAgICwdHAC6urp8ewClowDc2gC7uQBGRQCLi4zT0QBaWQAmJQAWFQCDg4SwsLCSkQBRUVScnJxpZwAAABIAABs8PEEqKi9iYmTk4wA7OwBTUQAsKwASEiIzMzdFRkoYGCAeHiIQEBZkHLH2AAAEYklEQVR4nO2aXXeqOhBAdUbBLxAFi2itKIiKKAr2Vj09//9v3cTWe2tra+whoWud7Ie2D1j3GsJkZkihIJFIJBKJRCKRSCQSiUQikUgk+QKEvB3eQGQ0VVVbLfJD+xFqRGLkmo/TNmU29UxrlLcXQMt6bBv3UTr3fX+up5s1zryxmqcWaG4XN/O6UjxR7T10EvQsLTcrmPyDUVgqvqO53GAwyckKrDZ+VKKUfbyzcrGCBUbKJSVKLUE7ByuwMb0Yptd7GKEr3Apc1KufOx2tRN9BGLU3X8SJohiDkVArUFfGp+vpRB1XqkgrsHB5zalY1IXeQFC7++tOxdJzV2CowGEJVLHo41hgqIJDmUVKSQJhSrDt6g0WqWr6tBUVKnL3HlicisUlOgKl6mxSFYFSrtFjk6qJ2wFhsb6aOU9SQ2FS/fsmm1TPWAmUYsoIJCfEIqUYI6XEfWFSwx3z7fuJUihOymR9+noCn74b8tRCmJSFNTapirhCnWwzzFL8a5fXyQqRqrBJPRz3PuA5kYGRvbDoFzBLhUQKYGubLrcSxsb1zhj0nUmfvXQZTiyPfCxGm4sSTDCtKWF0j7hOWbeZCBE3ek+pHJDLdAHMl+XdrNUYsxShodR7x571gU9yICupw5jIP9JMOZV7YCP6ClNx/j5cPnJaUzSTPyGmyyvt+ntKYQexy68tBW3cf8LY/3KycU7Vj7E7HPOcNwJoI3eKbA3W0UnHrrvlPmwkXkO2/pgyR1MTMpUFDSNWqQOKGskCs1R1PxDlpGKHNVIRCpq7kHzFuB/THVlMNwpbL2JOVc3EawlZ5wv2QNE6wRQgBSP2Z4+SIP9xLGirHXuRQKgYK/6508TwFqdiw+d+A2HMng5OVgfO3QOpqaKbayplw3V0RpyeGQvhMyvkZwUFd3a4aZGfqO/bboFP4akOkW1S/ZFegsPskygpWMZTvKW6O6fcwamV6atl8r9arocHxmbvMssEPbdVyMzLsQPcReE3Woa3lJYHAwPbyUSJNKFx5NdvbBcuUQ7nCWbTlJJ8yVz9XqWa0Tsk2LZ38wziRCnNd3fZjDro8QOMwlq5+ierqlGqhRFikFXNAC2XaMWH1P/u89eoLDvRmihZ2WUr8hyPrH5A+mP/e1Kkbe8G5nib8fCMnkcaOY/Rt9JnefPobLXsctS5mM06Fj6nhi7H+eLLXLFaLpdLDCGrll6v4/ouktbnoa8fktj4degsv6wYFLK0kzhOIt0P922eb20hQMLACwJvhrj3P01fJZq7Z/S6Af0E13dZoFmuo738Tffo50/q9fD3cfc9ok0sh2/rAP/NxMkv1W3jpVxf1nHmqv9fJ/QwHMAkwH3lXZ5vPCQ0b+d3Kg9UexbPzxa8osfthdCDNx+taLB+6fXXFkepd37T83h5n/UkdXIXjSSK0jSNEgO74/xOLr4BwDG9wR1h4JlO7lE6QdqKl2O6Yuab7PywA80SiUQikUgkEolEIpFIJBKJ5O/kX7NbWnf9XThBAAAAAElFTkSuQmCC",
     "title": "Snapchat",
     "companyName": "Snap Inc",
     "id": 106,
@@ -198,7 +198,7 @@
     ]
   },
   {
-    "image": "../src/assets/temu.jpg",
+    "image": "data:image/png;base64,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",
     "title": "Temu",
     "companyName": "WhaleCo Inc",
     "id": 107,
@@ -231,7 +231,7 @@
     ]
   },
   {
-    "image": "../src/assets/video.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREtV7dwzvAHr13vsXthJYvyDdvjIdthC52Vg&s",
     "title": "CapCut",
     "companyName": "ByteDance Ltd.",
     "id": 108,
@@ -264,7 +264,7 @@
     ]
   },
   {
-    "image": "../src/assets/insta.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmOQT83dtIlgCmJiM8X08gAFfHSDkuxBXA1Q&s",
     "title": "Threads, an Instagram app",
     "companyName": "Meta Platforms, Inc.",
     "id": 109,
@@ -429,7 +429,7 @@
     ]
   },
   {
-    "image": "../src/assets/pinterest.png",
+    "image": "https://cdn-icons-png.flaticon.com/512/145/145808.png",
     "title": "Pinterest",
     "companyName": "Pinterest, Inc.",
     "id": 114,
@@ -495,7 +495,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (1).webp",
+    "image": "https://img.freepik.com/premium-vector/zoom-icon-popular-messenger-app-communications-platform_277909-457.jpg",
     "title": "Zoom - One Platform to Connect",
     "companyName": "Zoom Video Communications, Inc.",
     "id": 116,
@@ -528,7 +528,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (2).webp",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJhyOBkI9m73a63Ayf9uQFQdDrLA5aTSJahQ&s",
     "title": "Duolingo: Learn Languages",
     "companyName": "Duolingo",
     "id": 117,
@@ -561,7 +561,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (3).webp",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQieO4YO7vglQcG7iTln_Tp5cV7klER0X-VnA&s",
     "title": "Google Maps",
     "companyName": "Google LLC",
     "id": 118,
@@ -594,7 +594,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (4).webp",
+    "image": "https://i.pinimg.com/474x/90/b2/65/90b26573e0f822d9bb987d05ce396cbc.jpg",
     "title": "Shopee",
     "companyName": "Shopee Mobile",
     "id": 119,
@@ -627,7 +627,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (6).webp",
+    "image": "https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg?semt=ais_hybrid&w=740&q=80",
     "title": "X (formerly Twitter)",
     "companyName": "X Corp.",
     "id": 120,

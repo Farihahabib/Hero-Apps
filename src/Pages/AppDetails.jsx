@@ -5,29 +5,32 @@ import downloadsimg from "../assets/icon-downloads.png"
 import ratingsimg from "../assets/icon-ratings.png"
 import reviewsimg from "../assets/icon-review.png"
 import { Bar, BarChart, CartesianGrid, Legend, Rectangle, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import {ToastContainer ,toast } from 'react-toastify';
 const AppDetails = () => {
    const [btntext ,setbtntext ] = useState('Install')
-  const [isdisabled ,setdisabled ] = useState(false)
+
     const { id } = useParams();
     const { apps, loading , Error } = useApps();
     
     const app = apps.find(a => String(a.id) === id);
-    if(loading) return <p>Loading...</p>
+    if(loading) return <p className='font-bold text-2xl text-center'>Loading...</p>
     const { title , image , downloads , ratingAvg ,reviews ,ratings , description} = app  ||{}
 
 
     const handleInstallbtn = () => {
+        toast('Installed')
+        setbtntext('Installed')
         const existinglist = JSON.parse(localStorage.getItem('Installation'))
         let updateList = []
         
         if( existinglist ) {
-       setbtntext('Installed')
-       setdisabled(true)
-      const isDuplicate = existinglist.some(a=> a.id ===app.id)
-      if (isDuplicate) return 
+
+const isDuplicate = existinglist.some(a=> a.id ===app.id)
+
+if (isDuplicate) return 
       updateList = [...existinglist, app]
         } else {
-        
+          setbtntext('Installed')
             updateList.push(app);
            
         }
@@ -35,6 +38,7 @@ const AppDetails = () => {
     }
     return (
         <>
+        <ToastContainer />
          <div className=' flex gap-8 flex-col md:flex-row lg:flex-row items-center'>
          <img className='w-60' src={image} alt="" />
          <div>
@@ -59,7 +63,7 @@ const AppDetails = () => {
                 </div>
                 
             </div>
-<button onClick={handleInstallbtn } disabled={isdisabled} className=' bg-green-400  font-semibold my-3 rounded-2xl px-3 py-1 text-white  '>{btntext}</button>
+<button onClick={handleInstallbtn } className=' bg-green-400  font-semibold my-3 rounded-2xl px-3 py-1 text-white  '>{btntext}</button>
          </div>
 
         </div>
@@ -85,9 +89,9 @@ const AppDetails = () => {
     
 </div>
 </div>
-<div className='border-t p-5'>
-    <h1 className='font-semibold'>Description</h1>
-    <p className='py-5'>{description}</p>
+<div>
+    <h1>Description</h1>
+    <p>{description}</p>
 </div>
         </>
        

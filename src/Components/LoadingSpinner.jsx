@@ -2,8 +2,8 @@ import React from 'react';
 
 const LoadingSpinner = () => {
     return (
-        <div>
-            
+        <div className='text-3xl font-semibold text-center'>
+            <p>Loading....</p>
         </div>
     );
 };

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import useApps from '../hooks/useApps';
 import Appscard from '../Components/appscard';
-
+import LoadingSpinner from '../Components/LoadingSpinner';
 const Apps = () => {
     const [search, setsearch ] = useState('')
       const { apps ,loading , Error } = useApps() 
@@ -33,21 +33,26 @@ const Apps = () => {
     </g>
   </svg>
   
-  <input value={search} onChange={(e)=> setsearch(e.target.value)} type="search" required placeholder="Search Apps" />
+  <input value={search} onChange={(e)=> setsearch(e.target.value) } type="search" required placeholder="Search Apps" />
 </label>
          </div>   
 </div>
-<div className='grid my-7 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-9 mx-auto px-4 md:px-8 lg:px-12 '>
+<div className='grid my-7 mx-15 md:mx-9 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 px-4 md:px-8 lg:px-12 '>
     {
+       loading ?<LoadingSpinner /> : (
  searchedApps.map(app =>(
 <Appscard key={app.id} app={app} />
- )
+ ))
 )
 }
 </div>
-
+ {
+  search.length > 0 && searchedApps.length === 0 && (
+   <p className='font-bold my-20 text-3xl text-center text-green-800'> No match found</p>
+  )
+ }
         </>
-    );
+    )
 };
 
 export default Apps;
