@@ -18,8 +18,7 @@ const AppDetails = () => {
 
 
     const handleInstallbtn = () => {
-        toast('Installed')
-        setbtntext('Installed')
+       
         const existinglist = JSON.parse(localStorage.getItem('Installation'))
         let updateList = []
         
@@ -27,10 +26,13 @@ const AppDetails = () => {
 
 const isDuplicate = existinglist.some(a=> a.id ===app.id)
 
-if (isDuplicate) return 
+if (isDuplicate) return alert('Already Installed')
+setbtntext('Installed')
+           toast('Installed')
       updateList = [...existinglist, app]
         } else {
-          setbtntext('Installed')
+          
+       
             updateList.push(app);
            
         }
