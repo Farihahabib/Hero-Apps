@@ -90,8 +90,8 @@ if (isDuplicate) return
 </div>
 </div>
 <div>
-    <h1>Description</h1>
-    <p>{description}</p>
+    <h1 className='font-bold'>Description</h1>
+    <p className='my-7'>{description}</p>
 </div>
         </>
        
