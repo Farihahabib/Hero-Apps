@@ -4,26 +4,32 @@ import useApps from '../hooks/useApps';
 import downloadsimg from "../assets/icon-downloads.png"
 import ratingsimg from "../assets/icon-ratings.png"
 import reviewsimg from "../assets/icon-review.png"
+import { Bar, BarChart, CartesianGrid, Legend, Rectangle, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 const AppDetails = () => {
-    const [btntext ,setbtntext ] = useState('Install')
+   const [btntext ,setbtntext ] = useState('Install')
+  const [isdisabled ,setdisabled ] = useState(false)
     const { id } = useParams();
     const { apps, loading , Error } = useApps();
+    
     const app = apps.find(a => String(a.id) === id);
     if(loading) return <p>Loading...</p>
-    const { title , image , downloads , ratingAvg ,reviews , size } = app  ||{}
+    const { title , image , downloads , ratingAvg ,reviews ,ratings , description} = app  ||{}
+
+
     const handleInstallbtn = () => {
         const existinglist = JSON.parse(localStorage.getItem('Installation'))
         let updateList = []
         
         if( existinglist ) {
-
-const isDuplicate = existinglist.some(a=> a.id ===app.id)
-
-if (isDuplicate) 
+       setbtntext('Installed')
+       setdisabled(true)
+      const isDuplicate = existinglist.some(a=> a.id ===app.id)
+      if (isDuplicate) return 
       updateList = [...existinglist, app]
         } else {
-            updateList.push(app)
-            setbtntext('Installed')
+        
+            updateList.push(app);
+           
         }
         localStorage.setItem('Installation',JSON.stringify(updateList))
     }
@@ -53,11 +59,36 @@ if (isDuplicate)
                 </div>
                 
             </div>
-<button onClick={handleInstallbtn } className=' bg-green-400  font-semibold my-3 rounded-2xl px-3 py-1 text-white  '>{btntext}</button>
+<button onClick={handleInstallbtn } disabled={isdisabled} className=' bg-green-400  font-semibold my-3 rounded-2xl px-3 py-1 text-white  '>{btntext}</button>
          </div>
 
         </div>
+{/**chart */}
+<div className='space-y-3'>
 
+<div className='bg-base-100 my-4 border-t p-4 h-80'>
+    <h1 className='font-semibold'>Ratings</h1>
+   <ResponsiveContainer width="100%" height="100%">
+      <BarChart
+        
+        data={ratings} 
+        layout="vertical">
+        <CartesianGrid strokeDasharray="3 3" />
+        <XAxis dataKey="count" />
+        <YAxis dataKey="name" type='category' />
+        <Tooltip />
+        <Legend />
+   
+<Bar dataKey="count" fill='#FF8811' />
+    </BarChart>
+    </ResponsiveContainer>
+    
+</div>
+</div>
+<div className='border-t p-5'>
+    <h1 className='font-semibold'>Description</h1>
+    <p className='py-5'>{description}</p>
+</div>
         </>
        
     );
